@@ -1,0 +1,13 @@
+metadata:
+  name: che-theia-all
+projects:
+  - name: che-cheia-branding-example
+    source:
+      location: 'https://github.com/che-samples/che-theia-branding-example.git'
+      type: git
+      branch: master
+components:
+  - type: cheEditor
+    reference: >-
+      http://localhost:9250/PA/poc/che-plugin-registry/output/v3/plugins/eclipse/che-theia/next/meta.yaml
+apiVersion: 1.0.0
